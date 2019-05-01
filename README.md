@@ -3,4 +3,4 @@ bmi and bmr calculator
 
 Still in progress...
 
-calculator in js and jquery. Currently only bmi works
+calculator in js and jquery. Currently bmi and calories work.

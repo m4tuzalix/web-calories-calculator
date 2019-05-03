@@ -230,7 +230,7 @@ function fat()
     }
     else
     {
-        if(b ==0.51)
+        if(b ==0.512)
         {
             f = 0.089
         }

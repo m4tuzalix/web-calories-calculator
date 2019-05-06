@@ -18,7 +18,8 @@ $(function() {
                     
                 }
             else if(cont_text=="Calories Calculator")
-                {   $('#heh' ).show('slow', function() {
+                {   $('#display').css('background-color', '')
+                    $('#heh' ).show('slow', function() {
                     });  
                     $('.activity').text('-Choose Activity-')
                     $('#activ').text('Activity')
@@ -45,7 +46,8 @@ $(function() {
                 }
             else
                 
-            {       $('.activity2').text('-Choose Sex-')
+            {       $('#display').css('background-color', '')
+                    $('.activity2').text('-Choose Sex-')
                     $('#weigth').val('');
                     $('#height').val('');
                     $('#display').empty();
